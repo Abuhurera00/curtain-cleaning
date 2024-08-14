@@ -1,0 +1,634 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.bed-container{
+    position: relative;
+}
+
+.bed-image-container{
+    max-width: 100%;
+}
+
+.bed-img{
+    width: 100%;
+    height: 407px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: relative;
+}
+.curtain-card-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+}
+
+.curtain-card {
+    background-color: rgba(146, 127, 112, 0.8); 
+    z-index: 1; 
+    width: 100%; 
+    padding: 20px;
+    margin-top: -32px;
+}
+
+.col-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(224, 208, 196);
+    padding: 30px;
+}
+
+.cleaning {
+    letter-spacing: normal;
+    font-weight: bold;
+    font-family: avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy, sans-serif;
+    font-size: 30px;
+    color: rgb(63, 33, 33);
+    line-height: normal;
+    position: relative;
+}
+
+.bold {
+    color: rgb(127, 66, 66);
+    font-size: 16px;
+    font: normal normal normal 16px/1.4em avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy, sans-serif;
+    letter-spacing: 0em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.bold-cont{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.small-cont{
+    font-size: 16px;
+}
+
+.small {
+    color: rgb(127, 66, 66);
+    font-size: 16px;
+    font: normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+    letter-spacing: 0em;
+}
+
+
+.money-back{
+    width: 100%;
+    /* height: 30vh; */
+    background-color: rgb(90, 76, 66);
+    text-align: center;
+    /* font-size: 29px; */
+}
+.moneyh4{
+    width: 50%;
+    margin: auto;
+    font-size: 25px;
+    padding: 20px 0;
+    font-family: heebo-medium, sans-serif;
+    color: #F5FFFE;
+    text-align: center;
+}
+
+
+
+
+/* tablec component------------------------------------------------------------------------------- */
+.table-width{
+    max-width: 100%;
+    height: auto;
+    background-color: #b6aaa2;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+}
+.table-center{
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    /* margin-top: 20px; */
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+  }
+  .before{
+    color: rgb(127, 66, 66);
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  td, th {
+    /* border: 1px solid #dddddd; */
+    padding: 0; /* Ensure no padding if you don't want spaces */
+    margin: 0; /* Ensure no margin if you don't want spaces */
+
+    text-align: left;
+    padding: 14px;
+    font-family: avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+  }
+  td{
+    color: rgb(127, 66, 66);
+    font-size: 16px;
+    font-weight: 100;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #dbd5d1;
+}
+
+
+.table-heading-cont{
+    font-size: 38px;
+    font-weight: 800;
+}
+.table-heading{
+    color: rgb(63, 33, 33);
+    text-align: center;
+    letter-spacing: .5rem;
+}
+
+
+
+/* PricingFAQ component------------------------------------------------------------------------ */
+.pricing-faq{
+    max-width: 100%;
+    height: auto;
+    background: rgb(12,3,0);
+background: linear-gradient(125deg, rgba(12,3,0,1) 0%, rgba(46,13,0,1) 100%);
+font-family: avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy, sans-serif;
+}
+
+.faq-wrap{
+    padding: 70px 0;
+}
+
+.faq-width{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 21px;
+}
+
+.faq{
+    color: #fff;
+    padding-right: 70px;
+    font-size: 38px;
+    font-family: avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy, sans-serif;
+}
+
+.Query{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   flex-wrap: wrap;
+   padding-left: 70px;
+}
+
+.question{
+    letter-spacing: normal;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy, sans-serif;
+    line-height: 1.8em;
+    min-height: 4px;
+}
+
+.answer{
+    color: rgb(255, 255, 255);
+    letter-spacing: normal;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+.question,.answer{
+    color: #fff;
+}
+
+.schdule-pickup-button {
+	font-style: italic;
+	background-color: rgba(50, 15, 1, 1);
+	border: none;
+	color: #fff;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: normal normal normal 60px/1.4em avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 3.94px 3.08px 4px 1px rgba(45, 35, 29, 0.75), 0 1px 4px rgba(0, 0, 0, .6);
+	transition: background-color .4s ease 0s;
+	font-family: italic normal normal 15px/1.4em heebo-medium, sans-serif;
+}
+
+.schdule-pickup-button:hover {
+	background: rgb(252, 233, 217);
+	background: linear-gradient(87deg, rgba(252, 233, 217, 1) 0%, rgba(252, 234, 219, 1) 93%);
+	color: #000;
+}
+
+.read-more {
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 714px){
+    .cleaning {
+        font-weight: 200;
+        font-size: 18px;
+    }
+    
+    .bold {
+        font-size: 12px;
+        font-weight: 100;
+    }
+    
+    .small {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 492px){
+    .table-center{
+        width: 100%;
+        /* margin: auto; */
+        padding: 10px;
+    }
+
+    .question,.answer{
+       font-size: 12px;
+    }
+    .faq{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 868px) {
+    /* table component------------------------------------------------------ */
+    .table-center{
+        /* width: 90%;
+        margin: auto; */
+        padding: 20px;
+    }
+    
+
+      .before{
+        color: rgb(127, 66, 66);
+        font-size: 9px;
+        font-weight: bold;
+      }
+      
+      td, th {
+        padding: 0; 
+        margin: 0; 
+     font-size: 9px;
+        text-align: left;
+        padding: 13px;
+        font-family: avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+      }
+      td{
+        color: rgb(127, 66, 66);
+        font-size: 9px;
+        font-weight: 100;
+      }
+
+      .table-heading-cont{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .table-heading{
+        text-align: center;
+        letter-spacing: -.001rem;
+    }
+
+
+
+    .faq-width{
+        flex-direction: column;
+    }
+    .faq-wrap{
+        width: 100%;
+        margin: auto;
+        padding: 70px 0;
+    }
+   
+.faq{
+    padding: 0 20px;
+}
+
+.Query{
+   padding: 0 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 428px){
+    .curtain-card {
+		padding-bottom: 8rem;
+	}
+}
+
+@media only screen and (max-width: 668px){
+    .curtain-card {
+		padding: 8rem 0;
+	}
+}
+
+
+
+
+
+
+
+@media (max-width: 940px){
+	.curtain-card {
+		margin-bottom: 11rem;
+	}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .curtain-article{
+    position: relative;
+    overflow: hidden;
+}
+.curtain-article{
+    max-width: 100%;
+}
+
+.curtain-img{
+    width: 100%;
+    height: 407px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    position: relative;
+}
+
+.curtain-data{
+    width: 80%;
+    background-color: #fff;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
+    background-color: rgba(146, 127, 112, 0.8); 
+    border-radius: 1rem;
+    position: absolute;
+    bottom: -9rem;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    opacity: 0;
+    transition: opacity 1s 1s;
+}
+
+.curtain-heading{
+    display: block;
+    letter-spacing: normal;
+    font-weight: bold;
+    font-family: avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy, sans-serif;
+    font-size: 18px;
+    color: rgb(63, 33, 33);
+    line-height: normal;
+    margin-bottom: .25rem;
+}
+
+.curtain-bold{
+    color: rgb(127, 66, 66);
+    font-size: 12px;
+    font: normal normal normal 16px/1.4em avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy, sans-serif;
+    letter-spacing: 0em;
+    font-weight: 500;
+}
+
+
+.curtain-small {
+    color: rgb(127, 66, 66);
+    font-size: 12px;
+    font: normal normal normal 16px/1.4em avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif;
+    letter-spacing: 0em;
+}
+
+
+
+.curtain-article:hover .curtain-data{
+    animation: show-data 1s forwards;
+   opacity: 1;
+   transition: opacity .3s;    
+}
+
+.curtain-article:hover{
+    animation: remove-overflow 1s forwards;
+}
+
+.curtain-article:not(:hover){
+    animation: show-overflow 2s forwards;
+}
+.curtain-article:not(:hover) .curtain-data{
+    animation: remove-data 1s forwards;
+}
+
+@keyframes show-data{
+    50%{
+        transform: translateY(-10rem);
+    }
+    100%{
+        transform: translateY(-7rem);
+    }
+}
+
+@keyframes remove-overflow{
+    to{
+        overflow: initial;
+    }
+}
+
+@keyframes remove-data{
+    0%{
+        transform: translateY(-7rem);
+    }
+    50%{
+        transform: translateY(-10rem);
+    }
+    100%{
+        transform: translateY(11rem);
+    }
+}
+
+@keyframes show-overflow{
+    0%{
+        overflow: initial;
+        pointer-events: none;
+    }
+    50%{
+        overflow: hidden;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .curtain-heading{
+        font-weight: 400;
+        font-size: 17px;
+        margin-bottom: .15rem;
+    }
+    
+    .curtain-bold,.curtain-small{
+        font-size: 14px;
+        font-weight: 200;
+    }
+
+    .curtain-data{
+        width: 50%;
+        background-color: #fff;
+        padding: 1.5rem 2rem;
+        box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
+        background-color: rgba(146, 127, 112, 0.8); 
+        border-radius: 1rem;
+        position: absolute;
+        bottom: -9rem;
+        left: 0;
+        right: 0;
+        margin-inline: auto;
+        opacity: 0;
+        transition: opacity 1s 1s;
+    }
+    
+    
+    
+} */
