@@ -190,6 +190,7 @@ font-family: avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy, sans-serif;
     padding-right: 70px;
     font-size: 38px;
     font-family: avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy, sans-serif;
+    margin-bottom: 20px;
 }
 
 .Query{
@@ -279,6 +280,10 @@ font-family: avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy, sans-serif;
     
     .small {
         font-size: 12px;
+    }
+    .moneyh4{
+        width: 90%;
+        font-size: 18px;
     }
 }
 
